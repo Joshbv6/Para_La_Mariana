@@ -1,0 +1,90 @@
+body {
+    background-color: #f28fbd;
+}
+.container {
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.image {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/349/581/small/valentine-s-banner-with-pink-paper-hearts-and-doodle-line-free-vector.jpg');
+    background-repeat: repeat-x;
+    background-size: 85% 100%;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.header, text, textarea {
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -8px;
+   
+}
+h1, text, textarea {
+    font-size: 60px;
+    text-shadow: 5rem;
+    color: #d86d9f;
+    text-shadow: 3px 2px 0 #000, 3px -4px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.cumple {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.pst1 {
+    justify-content: center;
+    margin-left: 330px;
+    font-size: 26px;
+}
+.pst2 {
+    justify-content: center;
+    margin-left: 46%;
+    font-size: 26px;
+}
+.ima {
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 3%;
+    border: double 5px black;
+    width: 640px;
+    height: 360px;
+    
+}
+.audio {
+    margin-top: -360px;
+    margin-left: 65%;
+}
+.solucion, text, textarea {
+    margin-left: 62%;
+}
+.texto, text, textarea {
+    width: 25%;
+    height: 26px;
+    margin-top: 1%;
+    border-radius: 15px;
+    text-align: center;
+}
+.pst3, text, textarea {
+    text-align: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 4%;
+}
+a:visited {
+    color: #cd30d0;
+}
+.pst4 {
+    margin-top: 4%;
+    margin-left: 69%;
+    font-size: 26px;
+}
+.green, .green:focus {
+    background-color: #16a216b1;
+}
+.red, .red:focus {
+    background-color: #aa2121bf;
+}

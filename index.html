@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Srta. Villalobos</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <script>
+            var audio = new Audio('cheers.mp3');
+            var fail = new Audio('fail.mp3')
+
+            function read(){
+                var green = document.getElementById("sorpresa");
+                if ( document.getElementById("sorpresa").value.toLowerCase() === "concierto" ){
+                    green.style = "background-color: #16a216b1;"
+                    audio.play();
+                    document.getElementById("open").src ="open.png"
+                } else {
+                    green.classList.toggle("red");
+                    fail.play();
+                }
+            }
+        
+    </script>
+    <style>
+        body {
+        font-family: "Lobster";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <div class="header">
+                <h1>¡Adivina tu regalo!</h1>
+            </div>
+        </div>
+    </div>
+    <div class="cumple">
+        <label class="pst1">Pista 1:</label><label class="pst2">Pista 2:</label>
+        <div class ="ima">
+            <img class ="img"src="https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2014/09/29/140929092057_mafalda_promo_624x351_joaquins.lavadoquino.jpg">
+        </div>
+        <div class="audio">
+            <audio controls>
+                <source src="Guerr.mp3" type="audio/mpeg">
+            </audio>
+        </div><div class="pst4"><label>¿Qué crees que es?</label></div>
+        <divc class="solucion">
+            <input type="text" placeholder="Solución: C.......O" class="texto" id="sorpresa" autocomplete="off"><button style="background-color:#f28fbd; border:none; " type="submit" onclick="read()"><img id="open"style="margin-bottom:-13px;position:relative;" src="gift.png"></button>
+            <h2 class="pst3">¿Lo has adivinado?<br>Si no...también puedes pinchar<br><a href="https://tienda.buscafiesta.es/evento/concierto-mafalda-san-vicente-del-raspeig-2022-sala-the-one-051122/">Aquí</a></h2>
+        </div>
+    </div>
+</body>
+</html>
